@@ -1,0 +1,1 @@
+import{_ as i,o as a,c as n,a0 as t}from"./chunks/framework.Bmhw_dvp.js";const c=JSON.parse('{"title":"变量","description":"","frontmatter":{},"headers":[],"relativePath":"variables.md","filePath":"variables.md"}'),l={name:"variables.md"};function h(p,s,e,k,d,r){return a(),n("div",null,[...s[0]||(s[0]=[t("",31)])])}const g=i(l,[["render",h]]);export{c as __pageData,g as default};

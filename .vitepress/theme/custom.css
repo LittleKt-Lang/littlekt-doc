@@ -1,0 +1,11 @@
+/* Hero text - make it smaller */
+.VPHero .text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--vp-c-text-1);
+}
+
+/* Hero name */
+.VPHero .name {
+  font-size: 3.5rem;
+}
