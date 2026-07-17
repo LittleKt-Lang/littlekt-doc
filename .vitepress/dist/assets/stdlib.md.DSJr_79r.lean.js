@@ -1,1 +1,0 @@
-import{_ as s,o as i,c as a,a0 as d}from"./chunks/framework.Bmhw_dvp.js";const c=JSON.parse('{"title":"标准库","description":"","frontmatter":{},"headers":[],"relativePath":"stdlib.md","filePath":"stdlib.md"}'),e={name:"stdlib.md"};function n(h,t,l,k,p,r){return i(),a("div",null,[...t[0]||(t[0]=[d("",26)])])}const E=s(e,[["render",n]]);export{c as __pageData,E as default};

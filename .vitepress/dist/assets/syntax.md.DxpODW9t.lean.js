@@ -1,1 +1,0 @@
-import{_ as a,o as i,c as t,a0 as e}from"./chunks/framework.Bmhw_dvp.js";const r=JSON.parse('{"title":"词法语法","description":"","frontmatter":{},"headers":[],"relativePath":"syntax.md","filePath":"syntax.md"}'),n={name:"syntax.md"};function l(d,s,h,o,p,k){return i(),t("div",null,[...s[0]||(s[0]=[e("",44)])])}const g=a(n,[["render",l]]);export{r as __pageData,g as default};

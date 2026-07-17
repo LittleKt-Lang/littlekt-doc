@@ -1,1 +1,0 @@
-import{_ as i,o as a,c as t,a0 as h}from"./chunks/framework.Bmhw_dvp.js";const g=JSON.parse('{"title":"类型系统","description":"","frontmatter":{},"headers":[],"relativePath":"types.md","filePath":"types.md"}'),n={name:"types.md"};function l(k,s,p,e,d,r){return a(),t("div",null,[...s[0]||(s[0]=[h("",48)])])}const o=i(n,[["render",l]]);export{g as __pageData,o as default};
