@@ -59,7 +59,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/LittleKt-Lang' }
+      { icon: 'github', link: 'https://github.com/LittleKt-Lang' },
+      { icon: 'discord', link: 'https://discord.gg/BpwCRuD9H8' },
     ]
   }
 })
