@@ -4,6 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LittleKt 语言文档",
   description: "LittleKt — 受 Kotlin 启发的动态类型编程语言",
+
+  // Sitemap 配置
+  sitemap: {
+    hostname: 'https://www.littlekt.org'
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
@@ -53,7 +59,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/LittleKt-Lang' }
     ]
   }
 })
