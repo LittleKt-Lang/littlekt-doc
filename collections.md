@@ -126,6 +126,8 @@ map["key"] = newValue        // 写入/插入
 | `filterKeys { it -> ... }`    | `Map`       | 过滤键，返回新 Map         |
 | `forEach { k, v -> ... }`     | `Unit`      | 遍历键值对                 |
 
+Map 也可用 `for` 遍历，每次迭代得到键值对（Pair）：
+
 ```kotlin
 val map = mapOf("a" to 1, "b" to 2)
 
@@ -164,9 +166,18 @@ arr[0] = newValue        // 写入
 | `get(index)`        | 获取指定索引元素 |
 | `set(index, value)` | 设置指定索引元素 |
 
+```kotlin
+val arr = arrayOf(10, 20, 30)
+for (item in arr) {
+    println(item)
+}
+```
+
+Array 创建后大小不可变，也不含高阶函数。
+
 ## Pair
 
-`Pair` 是一个包含 `first` 和 `second` 两个值的简单数据结构。
+`Pair` 是一个包含 `first` 和 `second` 两个属性的简单数据结构。
 
 ### 创建
 

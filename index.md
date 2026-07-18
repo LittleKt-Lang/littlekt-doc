@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 在线尝试
       link: https://play.littlekt.org
+    - theme: alt
+      text: Discord
+      link: https://discord.gg/BpwCRuD9H8
 
 features:
   - icon: 🎯

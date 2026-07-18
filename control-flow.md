@@ -60,7 +60,7 @@ if (score >= 90) {
 
 ## `when`
 
-`when` 是多分支选择结构，可作为语句或表达式。
+`when` 是多分支选择结构，可作为语句或表达式。注意：`when` 不提供智能类型转换（smart-casting），`is` 检查不会收窄分支内的类型。
 
 ### 带主体的 `when`
 
@@ -153,7 +153,7 @@ for (i in 1..5) {
 }
 ```
 
-范围是闭区间（包含两端）。支持正序和倒序范围。
+范围是闭区间（包含两端），`step` 关键字已保留但尚未实现步进语法。
 
 ### 列表迭代
 
@@ -170,6 +170,15 @@ for (item in items) {
 val arr = arrayOf(10, 20, 30)
 for (item in arr) {
     println(item)
+}
+```
+
+### Map 迭代
+
+```kotlin
+val map = mapOf("a" to 1, "b" to 2)
+for (entry in map) {
+    println("${entry.first} -> ${entry.second}")
 }
 ```
 

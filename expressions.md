@@ -80,7 +80,7 @@ for (i in 1..5) {
 }
 ```
 
-范围操作数必须均为 `Int`。
+范围操作数必须均为 `Int`。`step` 关键字已保留，但 `x..y step n` 语法尚未实现。
 
 ## 空安全运算符
 
@@ -127,9 +127,12 @@ val nonNull: String = known!!   // 强制解包，结果是 "hello"
 
 ## 类型检查运算符
 
+`is` 仅支持内置类型（`Int`、`Double`、`String`、`Boolean`、`Null`、`List`、`Array`、`Map`、`Pair`），不支持用户自定义类：
+
 ```kotlin
 x is Int       // 检查 x 是否为 Int
 x is String    // 检查 x 是否为 String
+x is List      // 检查 x 是否为 List
 ```
 
 优先级为 4，与比较运算符同级。
