@@ -70,16 +70,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/LittleKt-Lang' },
       { icon: 'discord', link: 'https://discord.gg/BpwCRuD9H8' },
-      {
-        icon: { svg: readSvg('wechat') },
-        link: 'https://mp.weixin.qq.com/s/AncakyFz0eJBs-caqWJRtA',
-        ariaLabel: '微信'
-      },
-      {
-        icon: { svg: readSvg('qq') },
-        link: 'https://qm.qq.com/q/UVUeEaBbm8',
-        ariaLabel: 'QQ'
-      },
+      { icon: { svg: readSvg('wechat') }, link: 'https://mp.weixin.qq.com/s/AncakyFz0eJBs-caqWJRtA' },
+      { icon: { svg: readSvg('qq') }, link: 'https://qm.qq.com/q/UVUeEaBbm8' },
     ]
   }
 })
