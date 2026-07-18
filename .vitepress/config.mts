@@ -72,7 +72,7 @@ export default defineConfig({
       { icon: 'discord', link: 'https://discord.gg/BpwCRuD9H8' },
       {
         icon: { svg: readSvg('wechat') },
-        link: 'http://weixin.qq.com/r/mp/tRJpcaTEHvlhreAS90en',
+        link: 'https://mp.weixin.qq.com/s/AncakyFz0eJBs-caqWJRtA',
         ariaLabel: '微信'
       },
       {
