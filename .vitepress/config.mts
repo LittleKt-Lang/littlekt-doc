@@ -11,7 +11,7 @@ export default defineConfig({
 
   // Sitemap 配置
   sitemap: {
-    hostname: 'https://www.littlekt.org'
+    hostname: 'https://docs.littlekt.org'
   },
 
   themeConfig: {
