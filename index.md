@@ -11,17 +11,14 @@ hero:
     alt: LittleKt Logo
   actions:
     - theme: brand
-      text: 语言概述
+      text: 查看文档
       link: /overview
-    - theme: alt
-      text: 快速上手
-      link: /syntax
     - theme: alt
       text: 在线尝试
       link: https://play.littlekt.org
     - theme: alt
-      text: Discord
-      link: https://discord.gg/BpwCRuD9H8
+      text: 赞助我们
+      link: https://sponsor.potatoblock.com
 
 features:
   - icon: 🎯
